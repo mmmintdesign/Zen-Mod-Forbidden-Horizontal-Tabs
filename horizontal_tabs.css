@@ -1,0 +1,149 @@
+/* Zen-Mod-Forbidden-Horizontal-Tabs - by mmmintdesign */
+
+.tabbrowser-arrowscrollbox {
+	display: block;
+}
+
+#browser {
+	display: flex !important;
+	flex-direction: column !important;
+}
+
+#zen-sidebar-splitter {
+	display: none !important;
+}
+
+#tabbrowser-tabpanels {
+	padding-left: var(--zen-element-separation) !important;
+}
+
+#appcontent * {
+	overflow: visible !important;
+}
+
+@media (-moz-bool-pref: "zen.view.sidebar-expanded") {
+	& #navigator-toolbox {
+		display: flex !important;
+		flex-direction: row !important;
+		max-width: none !important;
+
+		min-width: 100vw !important;
+		padding: var(--zen-toolbox-padding) !important;
+	}
+
+	.titlebar-buttonbox-container {
+		position: absolute;
+		right: 0;
+		top: -47px;
+	}
+}
+
+@media not (-moz-bool-pref: "zen.view.sidebar-expanded") {
+	#zen-tabbox-wrapper {
+		display: flex;
+		flex-direction: column;
+	}
+	& #navigator-toolbox {
+		min-width: 100% !important;
+	}
+}
+
+#titlebar {
+	width: 100%;
+	height: 40px !important;
+	margin-right: 140px !important;
+}
+
+#TabsToolbar {
+	flex-direction: row !important;
+	gap: 8px;
+}
+
+#zen-sidebar-icons-wrapper {
+	width: auto !important;
+	padding: 0 !important;
+}
+
+.tabbrowser-tab {
+	container-name: tab-container;
+	container-type: inline-size;
+	max-width: 200px !important;
+	min-width: 1px !important;
+}
+@container tab-container (max-width: 80px) {
+	.tab-close-button {
+		margin-right: 0px !important;
+	}
+	.tab-icon-image {
+		/* margin: 0 !important; */
+		padding: 0 !important;
+		margin-left: min(2.5px, 5%) !important;
+		margin-right: min(10px, 5%) !important;
+	}
+	.tab-label-container,
+	.tab-content {
+		margin: 0 !important;
+		/* padding: 0 !important; */
+		padding-left: min(8px, 5%) !important;
+		padding-right: min(8px, 5%) !important;
+	}
+}
+@container tab-container (max-width: 44px) {
+	.tab-label-container {
+		display: none !important;
+	}
+	.tab-content {
+		justify-content: space-around !important;
+	}
+	.tab-close-button {
+		display: none !important;
+	}
+
+	.tabbrowser-tab[selected] {
+		& .tab-icon-image,
+		.tab-icon-stack {
+			display: none !important;
+		}
+		& .tab-content {
+			justify-content: space-around !important;
+			padding: 0 !important;
+		}
+		.tab-close-button {
+			display: block !important;
+		}
+	}
+}
+
+.tabbrowser-tab[selected] {
+	flex: 100 !important;
+	min-width: 32px !important;
+}
+
+#TabsToolbar-customization-target::after {
+	display: none !important;
+}
+
+box.scrollbox-clip scrollbox slot {
+	display: inline-flex;
+	/*! justify-content: flex-start; */
+}
+.menupopup-arrowscrollbox > slot:nth-child(1) {
+	display: flex;
+	flex-direction: column !important;
+}
+
+#tabbrowser-arrowscrollbox {
+	max-height: none !important;
+}
+
+tab::after {
+	z-index: -1;
+	content: "";
+	position: absolute;
+	right: 0;
+	width: 1px;
+	height: 45%;
+	top: 50%;
+	transform: translateY(-50%);
+	background: hsl(247, 10%, 28%);
+}
