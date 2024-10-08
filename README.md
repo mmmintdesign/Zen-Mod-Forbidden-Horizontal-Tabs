@@ -1,2 +1,11 @@
 # Zen-Mod-Forbidden-Horizontal-Tabs
-Adds horizontal tabs for Zen browser
+**Experimental!**
+
+Adds horizontal tabs for Zen browser.
+
+Known bugs:
+- Tab dragging not working correctly
+- Minified and Compact mode incomplete
+
+
+![image](./zen_tabs_horizontal.png)
