@@ -123,6 +123,10 @@
 	display: none !important;
 }
 
+slot {
+	flex-direction: row !important;
+}
+
 box.scrollbox-clip scrollbox slot {
 	display: inline-flex;
 	/*! justify-content: flex-start; */
