@@ -11,4 +11,6 @@ How to install: <br />
 Follow Zen's Live Editing Zen Theme guide: https://docs.zen-browser.app/guides/live-editing <br />
 and copy contents of `horizontal_tabs.css` into `userChrome.css`
 
+Make sure to use **expanded mode**, else it will look wrong.
+
 ![image](./zen_tabs_horizontal.png)
