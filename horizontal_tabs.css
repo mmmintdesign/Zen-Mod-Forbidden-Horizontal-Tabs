@@ -151,3 +151,7 @@ tab::after {
 	transform: translateY(-50%);
 	background: hsl(247, 10%, 28%);
 }
+
+hbox#nav-bar-customization-target toolbarbutton.chromeclass-toolbar-additional:nth-of-type(1) {
+	padding-inline-start: var(--toolbar-start-end-padding) !important;
+}
