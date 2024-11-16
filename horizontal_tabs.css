@@ -152,6 +152,19 @@ tab::after {
 	background: hsl(247, 10%, 28%);
 }
 
+#tabbrowser-arrowscrollbox-periphery {
+	margin: 0 !important;
+}
+
+.toolbarbutton-text {
+	/* NOTE: Remove this if you want to keep the "New tab" text */
+	display: none !important;
+}
+
 hbox#nav-bar-customization-target toolbarbutton.chromeclass-toolbar-additional:nth-of-type(1) {
 	padding-inline-start: var(--toolbar-start-end-padding) !important;
+}
+
+.tabbrowser-tab {
+	flex: 1 !important;
 }
