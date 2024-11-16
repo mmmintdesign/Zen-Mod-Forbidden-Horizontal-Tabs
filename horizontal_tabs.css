@@ -300,7 +300,7 @@ toolbar#PersonalToolbar {
     padding-left: 6px !important;
 }
 
-.toolbarbutton-text {
+#tabs-newtab-button .toolbarbutton-text {
     display: none !important;
 }
 
