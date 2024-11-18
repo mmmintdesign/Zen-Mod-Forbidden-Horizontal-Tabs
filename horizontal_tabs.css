@@ -308,3 +308,8 @@ toolbar#PersonalToolbar {
     width: 100% !important;
     height: 3px !important;
 }
+
+.tabbrowser-tab[zen-glance-tab="true"] { 
+    flex-basis: fit-content !important;
+    max-width: 36px !important;
+}
