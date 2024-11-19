@@ -80,6 +80,17 @@
     width: 0% !important;
 }
 
+.tabbrowser-tab[zen-glance-tab="true"] {
+    .tab-content {
+    }
+    
+    .tab-label-container {
+        display: none !important;
+        width: 0px !important;
+        max-width: 0px !important;
+    }
+}
+
 #tabbrowser-arrowscrollbox {
     display: flex !important;
     max-width: -moz-available;
@@ -248,6 +259,7 @@ box.scrollbox-clip scrollbox slot {
 
 #PanelUI-zen-gradient-generator {
     min-width: 390px !important;
+    transform: 0 !important;
 }
 
 
@@ -312,4 +324,12 @@ toolbar#PersonalToolbar {
 .tabbrowser-tab[zen-glance-tab="true"] { 
     flex-basis: fit-content !important;
     max-width: 36px !important;
+}
+
+#zen-essentials-container .tabbrowser-tab[zen-glance-tab="true"] {
+    left: 2px;
+}
+
+#vertical-pinned-tabs-container .tabbrowser-tab[zen-glance-tab="true"] {
+    position: absolute !important;
 }
