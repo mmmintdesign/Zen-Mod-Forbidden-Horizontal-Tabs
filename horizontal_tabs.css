@@ -332,3 +332,14 @@ toolbar#PersonalToolbar {
 #vertical-pinned-tabs-container .tabbrowser-tab[zen-glance-tab="true"] {
     position: absolute !important;
 }
+
+#TabsToolbar-customization-target toolbarbutton,
+#TabsToolbar-customization-target toolbarpaletteitem {
+    -webkit-box-flex: 0 !important;
+    min-width: min-content;
+    width: auto !important;
+    
+    .toolbarbutton-text {
+        display: none !important;
+    }
+}
