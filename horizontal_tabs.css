@@ -311,10 +311,6 @@ toolbar#PersonalToolbar {
     padding-left: 6px !important;
 }
 
-#tabs-newtab-button .toolbarbutton-text {
-    display: none !important;
-}
-
 .tab-context-line {
     width: 100% !important;
     height: 3px !important;
