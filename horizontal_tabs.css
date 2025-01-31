@@ -25,12 +25,13 @@
     }
 }
 
-#tabbrowser-tabs {
+/* fix for Zen 1.7.4b: tab widths getting to didn't scale*/
+/* #tabbrowser-tabs {
     display: -webkit-box !important;
     -webkit-box-orient: horizontal;
     -webkit-box-pack: start;
 }
-
+ */
 #vertical-pinned-tabs-container-separator {
     display: none !important;
 }
