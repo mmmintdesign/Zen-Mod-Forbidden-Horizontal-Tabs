@@ -340,3 +340,15 @@ toolbar#PersonalToolbar {
         display: none !important;
     }
 }
+
+/* fix for 1.8.2b tabs got hidden by other elements*/
+#zen-current-workspace-indicator-container {
+  margin-bottom: 0;
+  display: none;
+}
+.zen-workspace-tabs-section{
+    flex-direction: row;
+}
+#zen-sidebar-bottom-buttons{
+    width: auto !important;
+}
