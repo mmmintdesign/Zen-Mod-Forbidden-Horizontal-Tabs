@@ -337,18 +337,27 @@ toolbar#PersonalToolbar {
     width: auto !important;
     
     .toolbarbutton-text {
-        display: none !important;
+	display: none !important;
     }
 }
 
 /* fix for 1.8.2b tabs got hidden by other elements*/
 #zen-current-workspace-indicator-container {
-  margin-bottom: 0;
-  display: none;
+	margin-bottom: 0;
+	display: none;
 }
 .zen-workspace-tabs-section{
-    flex-direction: row;
+	flex-direction: row;
 }
 #zen-sidebar-bottom-buttons{
-    width: auto !important;
+	width: auto !important;
+	padding: 0 !important;
 }
+
+/* if you want to put Workspaces to the left, comment out code below */
+
+/*
+#TabsToolbar {
+	flex-direction: row-reverse !important;
+}
+*/
