@@ -4,7 +4,7 @@
 Adds horizontal tabs for Zen browser.
 
 Known bugs:
-- Tab dragging not working correctly
+- Tab dragging not working correctly ( possible fix with a bit of tweaking: https://github.com/mmmintdesign/Zen-Mod-Forbidden-Horizontal-Tabs/issues/10 )
 - Minified and Compact mode incomplete
 
 How to install: <br />
