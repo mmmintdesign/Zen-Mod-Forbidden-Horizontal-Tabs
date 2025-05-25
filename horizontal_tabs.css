@@ -361,3 +361,32 @@ toolbar#PersonalToolbar {
 	flex-direction: row-reverse !important;
 }
 */
+
+
+
+
+/*fix for 1.8.2b*/
+.zen-current-workspace-indicator {
+	display: none !important;
+}
+.zen-workspace-pinned-tabs-section {
+	display: none !important;
+}
+#zen-sidebar-bottom-buttons {
+	width: 100px !important;
+}
+.item-wrapper {
+	width: 200px !important;
+}
+#notifications-toolbar {
+	display: none !important;
+}
+#TabsToolbar {
+	padding-right: 110px !important;
+}
+.titlebar-buttonbox-container {
+	position: absolute;
+	right: 0;
+	transform: translateY(-48px);
+	height: 48px !important;
+}
