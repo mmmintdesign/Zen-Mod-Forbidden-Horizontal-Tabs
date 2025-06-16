@@ -390,3 +390,15 @@ toolbar#PersonalToolbar {
 	transform: translateY(-48px);
 	height: 48px !important;
 }
+
+
+/* fix 1.13b*/
+#zen-sidebar-foot-buttons{
+    width:auto !important;
+}
+#TabsToolbar {
+	padding-right: 160px !important;
+}
+#zen-workspaces-button{
+    min-width: 48px;
+}
