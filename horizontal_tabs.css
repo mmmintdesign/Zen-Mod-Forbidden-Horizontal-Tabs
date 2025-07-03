@@ -407,3 +407,12 @@ toolbar#PersonalToolbar {
 zen-workspace{
     top:0;
 }
+/* fix 1.14b, prevent transformation and hide scroll*/
+.tabbrowser-tab{
+    transform: none !important;
+/* comment out if want possible transformations*/
+}
+.zen-tabs-wrapper{
+   overflow:hidden;
+}
+
