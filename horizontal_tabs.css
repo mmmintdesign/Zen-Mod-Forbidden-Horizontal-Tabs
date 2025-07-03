@@ -402,3 +402,8 @@ toolbar#PersonalToolbar {
 #zen-workspaces-button{
     min-width: 48px;
 }
+
+/* fix 1.14b*/
+zen-workspace{
+    top:0;
+}
