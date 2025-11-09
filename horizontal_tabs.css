@@ -413,7 +413,12 @@ zen-workspace{
 /* comment out if want possible transformations*/
 }
 .zen-tabs-wrapper{
-   overflow:hidden;
+   overflow:hidden !important;
+}
+
+#zen-tabs-wrapper {
+   overflow-y: hidden !important;
+   overflow: hidden !important;
 }
 
 /*hide media buttons for now*/
